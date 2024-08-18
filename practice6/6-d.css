@@ -1,0 +1,15 @@
+p{
+  text-align: center;
+  margin:0px;
+
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.content{
+  margin-top: 15px;
+}
+span{
+  text-decoration: underline;
+}

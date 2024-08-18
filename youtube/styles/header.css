@@ -1,0 +1,127 @@
+.search-bar{
+  border: 1px solid rgb(200, 200, 200);
+  color: gray;
+  flex: 1;
+  
+  height: 28px;
+  margin:0px;
+  border-radius: 2px;
+  padding-left: 10px;
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+.header{ 
+  display: flex;
+  height: 55px;
+  flex-direction: row;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  border-bottom-width: 1px ;
+  border-bottom-style: solid ;
+  border-bottom-color: rgb(228, 228, 228) ;
+  z-index: 200;
+
+  
+}
+.header-left{
+  width: 180px;
+  align-items: center;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+.header-center{
+  align-items: center;
+  flex: 1;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.menu{
+  height: 24px;
+  object-position: center;
+  margin-left: 15px;
+}
+.youtube{
+  margin-left: 15px;
+
+  height: 20px;
+}
+.search-icon{
+  height: 22px;
+  margin-top: 3px;
+}
+.search-botton{
+  border: 1px solid rgb(200, 200, 200);
+  margin-left: 0px;
+  height: 40px;
+  width: 60px;
+  position: relative;
+
+}
+.search-botton .tooltip{
+  position: absolute;
+  top: 40px;
+  border: 2px solid gray;
+  background-color: gray;
+  color: white;
+  opacity: 0;
+  transition: all 0.25s;
+}
+.search-botton:hover .tooltip{
+  opacity: 1;
+}
+
+.voice-botton{
+  border: 1px solid gray;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  border: none;
+}
+.voice-icon{
+  width: 24px;
+  margin-left: -1px;
+  margin-top: 2px;
+}
+.header-right{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 22px;
+  flex-shrink:0;
+
+}
+.upload-icon{
+  height: 28px;
+}
+.apps-icon{
+  height: 28px;
+}
+.notify-icon{
+  height: 28px;
+}
+.div-notify{
+  position: relative;
+}
+.count{
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  border-radius: 10px;
+}
+
+.me-icon{
+  height: 32px;
+}
